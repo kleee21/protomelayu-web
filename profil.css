@@ -96,7 +96,7 @@ body {
 
     /* Optional: Create the X animation for the menu icon */
     .menu-icon.change .bar:nth-child(1) {
-        transform: rotate(-50deg) translate(-5.5px, 12.5px);
+        transform: rotate(-50deg) translate(-5.5px, 11px);
     }
 
     .menu-icon.change .bar:nth-child(2) {
@@ -104,7 +104,7 @@ body {
     }
 
     .menu-icon.change .bar:nth-child(3) {
-        transform: rotate(50deg) translate(-5px, -12.5px);
+        transform: rotate(50deg) translate(-5px, -11px);
     }
 }
 body {
