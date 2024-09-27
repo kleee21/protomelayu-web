@@ -39,7 +39,7 @@
   }
   
   .nav-links a:hover {
-    background-color: #555;
+    background-color: #49464673;
     border-radius: 5px;
   }
   
@@ -56,8 +56,7 @@
     margin: 4px;
     transition: all 0.3s ease;
   }
-  
-  /* For smaller screens */
+  /* buat kecilin */
   @media (max-width: 768px) {
     .nav-links {
         display: none; 
@@ -65,13 +64,17 @@
         position: absolute;
         top: 60px; 
         right: 0;
-        background-color: #333;
+        background-color: #2b2929;
         width: 100%; 
         text-align: center;
     }
 
     .nav-links.show {
         display: flex; 
+    }
+
+    .nav-links li {
+        margin: 10px 0; /* Adds vertical space between links */
     }
 
     .menu-icon {
