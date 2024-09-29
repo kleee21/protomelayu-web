@@ -8,9 +8,9 @@ window.addEventListener('load', function() {
   
       // Add the 'loaded' class to body to show the content
       document.body.classList.add('loaded');
-    }, 1000); // 2 seconds
+    }, 1500); // 3 seconds
   });
-const menuIcon = document.querySelector('.menu-icon');
+  const menuIcon = document.querySelector('.menu-icon');
   const navLinks = document.querySelector('.nav-links');
 
   menuIcon.addEventListener('click', () => {
