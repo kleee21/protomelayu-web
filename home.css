@@ -96,19 +96,19 @@ body {
     transition: all 0.3s ease;
 }
 
-  /* For smaller screens */
-  @media (max-width: 768px) {
+ /* Animation for smaller screens */
+@media (max-width: 768px) {
     .nav-links {
-      position: absolute;
-      right: 0;
-      top: 60px;
-      background-color: #333;
-      width: 100%;
-      height: 0;
-      overflow: hidden;
-      flex-direction: column;
-      transition: height 0.3s ease;
-    }
+        display: none; 
+        flex-direction: column; 
+        position: absolute;
+        top: 60px; 
+        right: 0;
+        background-color: #2b2929;
+        width: 100%; 
+        text-align: center;
+        transition: transform 0.5s ease-in-out; /* Add smooth sliding effect */
+        transform: translateX(100%); /* Start off-screen to the right */
   
     .nav-links.show {
       height: 200px; /* Adjust based on number of items */
