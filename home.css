@@ -113,7 +113,7 @@ body {
   
   .nav-links.show {
     display: flex;
-      height: 200px; /* Adjust based on number of items */
+      transform: translateX(0); /* Slide in from the right */
     }
   
     .nav-links li {
