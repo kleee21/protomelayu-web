@@ -3,61 +3,34 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' type='text/css' href='activities.css'>
         <title>hobby</title>
-        <style>
-            body {
-            background-color: #000000;
-            color: azure;
-            margin: 10;
-            align-items: center;
-        }
-
-            #app_bar {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: flex-start;
-            }
-    
-            #web_title {
-                align-self: flex-start;
-            }
-    
-            #web_menu {
-                align-self: flex-end;
-            }
-            a#Home_link {
-            color: dodgerblue;
-            }
-
-            a#about_me_link {
-                color: red;
-
-            }
-            a#Contents_link {
-                color: dodgerblue;
-            }
-
-            a#web_link {
-                color: dodgerblue;
-            }
-            a#gitar_link {
-                color: darkgreen;
-            }
-        </style>
     </head>
 
     <body>
-        <strong>
-            <div id="app_bar">
-                <div id="web_title"><a target="_blank" href="profil_kleon.html" id="web_link">Kleon Website</a></div>
-                <div id="web_menu">
-                    <span><a target="_blank" href="home.html" id="Home_link">Home</a></span>
-                    <span><a href="" id="about_me_link">Hobby</a></span>
-                    <span><a target="_blank" href="content.html" id="Contents_link">Contents</a></span> 
-            </div>
-            </div>
-            </strong>
+        div id="loading-screen">
+        <div class="spinner"></div>
+        <p style="color: black;">Loading, please wait...</p>
+      </div>
+    
+
+      <nav class="navbar">
+        <div class="logo"><a style="color: #FFFFFF" href="profil_kleonkah.html" id="nav-links">My Website</a></div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="hobby.html">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="content.html">Contact</a></li>
+        </ul>
+        <div class="menu-icon" id="menu-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    
+      <script src="activities.js"></script>
+
         <center>
            <h2>My Hobby</h2>
         <br>    
